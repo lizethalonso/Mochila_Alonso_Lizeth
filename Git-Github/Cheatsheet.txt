@@ -1,0 +1,80 @@
+CREANDO Y CONFIGURANDO REPOSITORIO
+
+--------------------------------------------------------------
+Crear repositorio local
+$ git init
+--------------------------------------------------------------
+Configurar usuario e email de formaa global
+$ git config --global user.name "nombreDeUsuario"
+$ git config --global user.email "nombre@email.com"
+--------------------------------------------------------------
+Configurar y verificar usuario
+$ git config user.name "nombreDeUsuario"
+$ git config user.name
+--------------------------------------------------------------
+Configurar y verificar email de usuario
+$ git config user.email "nombre@email.com"
+$ git config user.email
+--------------------------------------------------------------
+Vincula repositorio local con GitHub
+$ git remote add origin "link repositorio GH" 
+--------------------------------------------------------------
+Para verificar el paso anterior
+$ git remote -v
+--------------------------------------------------------------
+Para clonar repositorio 
+$ git clone "link repositorio"
+--------------------------------------------------------------
+
+CONFIGURACIÓN OTRO PC
+
+--------------------------------------------------------------
+Borrar credenciales de usuario anterior, contraseña token 
+generada en github
+$ git config --local credential.helper ""
+--------------------------------------------------------------
+Configurar token de GitHub como contraseña global
+$ git config --global credential.helper store
+--------------------------------------------------------------
+Usar token en un repositorio específico 
+$ git config --global credential.<url>.username <token>
+--------------------------------------------------------------
+Usar token en todos los repositorios
+$ git config --global credential.github.com.username <token>
+--------------------------------------------------------------
+
+PROCESO DE SUBIR ARCHIVOS
+
+--------------------------------------------------------------
+Ver estado del repositorio
+$ git status
+--------------------------------------------------------------
+Agregar archivos
+$ git add . (git add "Nombre archivo.extensión")
+--------------------------------------------------------------
+Confirmar que subo un archivo o cambios
+$ git commit -m "mensaje"
+--------------------------------------------------------------
+Enviar archivos al repositorio
+$ git push -U origin master (1er push)
+$ git push origin master
+--------------------------------------------------------------
+Actualizar archivos al local
+$ git pull origin master
+--------------------------------------------------------------
+Ver los commits hechos
+$ git log --online
+--------------------------------------------------------------
+
+RAMAS
+
+--------------------------------------------------------------
+Ver diferencias de dos ramas
+$ git diff (rama1) (rama2)
+--------------------------------------------------------------
+Unir ramas (desde la rama más atrasada)
+$ git merge (rama más adelantada)
+--------------------------------------------------------------
+Crear rama
+$ git branch -b "nombre de la rama"
+--------------------------------------------------------------
