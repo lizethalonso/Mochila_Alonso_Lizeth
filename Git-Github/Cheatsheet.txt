@@ -69,12 +69,15 @@ $ git log --online
 RAMAS
 
 --------------------------------------------------------------
+Crear rama
+$ git branch -b "nombre de la rama"
+--------------------------------------------------------------
 Ver diferencias de dos ramas
 $ git diff (rama1) (rama2)
 --------------------------------------------------------------
 Unir ramas (desde la rama más atrasada)
 $ git merge (rama más adelantada)
 --------------------------------------------------------------
-Crear rama
-$ git branch -b "nombre de la rama"
+Unir ramas con mensaje personalizado (No automático)
+$ git merge --no-ff ensayo -m "mensaje merge"
 --------------------------------------------------------------
