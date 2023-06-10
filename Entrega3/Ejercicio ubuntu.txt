@@ -1,0 +1,21 @@
+1. ¿Por qué un lenguaje de programación sólo puede utilizarse
+en algunos sistemas operativos y en otros no?
+
+Porque algunos lenguajes están diseñados especificamente para 
+algunos sistemas operativos y porque algunos requieren de un
+entorno de ejecución específico para ejecutarse. Ej: Java
+requiere la MV Java para ejecutar programas de este tipo.
+
+2. ¿Qué tipo de máquina virtual es virtualbox?
+
+Es una máquina virtual de tipo 2 que se ejecuta sobre un 
+sistema operativo anfitrión y  permite crear y ejecutar
+múltiples máquinas virtuales, cada una con su propio sistema
+operativo y recursos virtualizados.
+
+3. Si tengo más de una máquina virtual instalada, y una se rompe, 
+ ¿esto afectaría a las de más? ¿'por qué?
+
+Normalmente no afectan a las demás porque se ejecutan de manera
+aislada unas de otras, es decir, funcionan como un sistema 
+independiente.
