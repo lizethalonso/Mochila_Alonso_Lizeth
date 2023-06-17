@@ -5,5 +5,8 @@ IP Pública: 181.51.34.157
 MAC: 08:00:27:85:1d:29
 
 Sólo la IP Privada de la máquina virtual es diferente a la de la máquina real.
-La IP pública es la misma en ambas máquinas.
+La IP pública es la misma en ambas máquinas. 
+
+Modifico este archivo para ensayar colocando un mensaje de merge cuando se une
+con main porque al hacerlo no se identifica si es merge o no.
 
